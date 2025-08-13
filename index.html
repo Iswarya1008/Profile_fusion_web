@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects 🚀</title>
+    <!-- Font Awesome CDN for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        background-image: url("./BACKGROUND\ BG.jpg");
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        color: white;
+      }
+
+      /* Navbar */
+      nav {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 15px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+      }
+
+      nav h1 {
+        font-size: 24px;
+        color: #00ffff;
+        left: 100px;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+      }
+
+      nav ul li {
+        display: inline;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        position: relative;
+      }
+
+      nav ul li a:hover {
+        color: #00ffff;
+      }
+
+      nav ul li a::after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 2px;
+        background: #00ffff;
+        left: 0;
+        bottom: -3px;
+        transition: 0.4s;
+      }
+
+      nav ul li a:hover::after {
+        width: 100%;
+      }
+      section {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        flex-wrap: wrap;
+        padding: 20px;
+      }
+      p {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: large;
+      }
+      h2 {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      /* Portfolio Container */
+      .container {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        flex-wrap: wrap;
+        padding: 20px;
+      }
+
+      .portfolio {
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 15px;
+        border-radius: 10px;
+        width: 180px;
+        position: relative;
+      }
+
+      .portfolio:hover {
+        transform: scale(1.1);
+        box-shadow: 0 8px 15px red;
+      }
+
+      .portfolio img {
+        height: 100px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+        padding: 8px 12px;
+        margin-top: auto;
+        justify-content: center;
+      }
+
+      .portfolio h3 {
+        margin-top: 10px;
+        font-size: 18px;
+        color: #00ffff;
+      }
+
+      .portfolio .btn {
+        margin-top: 8px;
+        background-color: #00ffff;
+        color: #000;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .portfolio .btn:hover {
+        background-color: #009999;
+      }
+
+      /* Social Icons */
+      .portfolio .icons {
+        margin-top: 10px;
+      }
+
+      .portfolio .icons a {
+        color: white;
+        margin: 0 5px;
+        transition: transform 0.3s ease, color 0.3s ease;
+      }
+
+      .portfolio .icons a:hover {
+        color: #00ffff;
+        transform: scale(1.2);
+      }
+
+      /* Pseudo Element */
+      .portfolio::before {
+        content: "★";
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        font-size: 20px;
+        color: gold;
+      }
+
+      /* Optional Floating Effect */
+      .portfolio:nth-child(even) {
+        float: left;
+      }
+
+      .portfolio:nth-child(odd) {
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>PORTFOLIOS</h1>
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <br />
+
+    <section id="about">
+      <h2>About This Website</h2>
+      <p>
+        Welcome to our website! This site is designed to help users learn HTML
+        and CSS in the easiest way possible. Whether you are a beginner or just
+        need a refresher, you'll find simple examples and practical projects to
+        build your skills.
+      </p>
+
+      <p>
+        We created this site to make learning web development fun and accessible
+        for everyone. You can explore lessons, try coding examples, and even
+        build your own mini-projects.
+      </p>
+
+      <p>
+        This website is built using basic HTML and CSS, and it's fully
+        responsive for both desktop and mobile users.
+      </p>
+    </section>
+    <br />
+    <center>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/-u3vE84Wo_U?si=-Z0t6NxpGYr3ugka"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <p>
+        THIS IS OUR GUIDE
+        <a href="https://youtu.be/FYErehuSuuw?si=HzG6Z-prAU5UVG-Q">YOUTUBE</a>
+        VIDEO
+      </p>
+    </center>
+
+    <!-- Portfolio Section -->
+    <div class="container" id="projects">
+      <div class="portfolio">
+        <a href="./sri.html"><img src="SRI.jpg" alt="Sri Portfolio" /></a>
+        <h3>Sri's Portfolio</h3>
+        <div class="icons">
+          <a href="https://github.com/Srinithi1509"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/srinithi-dhandapani-8743b826a"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="portfolio">
+        <a href="./ISH.HTML"><img src="new ish.jpg" alt="Ish Portfolio" /></a>
+        <h3>Ish's Portfolio</h3>
+        <div class="icons">
+          <a href="https://github.com/Iswarya1008"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://linkedin.com/in/iswarya1008"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="portfolio">
+        <a href="./kamesh.html"
+          ><img src="KAMESH.jpg" alt="Kamesh Portfolio"
+        /></a>
+        <h3>Kamesh's Portfolio</h3>
+        <div class="icons">
+          <a href="https://github.com/kameshwaran2"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/kamesh07"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="portfolio">
+        <a href="./KUMAR.HTML"
+          ><img src="new kumar.jpg" alt="Kumar Portfolio"
+        /></a>
+        <h3>Kumar's Portfolio</h3>
+        <div class="icons">
+          <a href="https://github.com/kumarandilli"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/kumarand7778"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <br />
+  </body>
+</html>
